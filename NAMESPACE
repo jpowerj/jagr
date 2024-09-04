@@ -3,4 +3,5 @@
 export(findAndReplaceAddin)
 export(insertInAddin)
 export(submitFile)
+import(httr2)
 import(rstudioapi)

@@ -4,5 +4,5 @@
 #'
 #' @name jagr
 #' @docType package
-#' @import rstudioapi
+#' @import rstudioapi httr2
 NULL
