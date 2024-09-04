@@ -10,4 +10,5 @@ Imports:
     rstudioapi (>= 0.4)
 License: MIT + file LICENSE
 LazyData: true
-RoxygenNote: 5.0.1
+RoxygenNote: 7.3.2
+Encoding: UTF-8

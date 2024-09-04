@@ -2,8 +2,5 @@
 
 export(findAndReplaceAddin)
 export(insertInAddin)
-export(subsetAddin)
-import(formatR)
-import(miniUI)
+export(submitFile)
 import(rstudioapi)
-import(shiny)
