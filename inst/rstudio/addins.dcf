@@ -1,0 +1,4 @@
+Name: Submit to Autograder
+Description: Submits the active .qmd or .ipynb file to JAG
+Binding: submitFile
+Interactive: false
