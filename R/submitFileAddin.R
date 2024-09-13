@@ -27,7 +27,7 @@ submitFile <- function() {
     user = rs_user,
     ident_env = rs_ident_env,
     user_env = rs_user_env,
-    content = rs_content_str,
+    content = rs_content_str
   ))
   result <- req |> httr2::req_perform()
   result_str <- result |> httr2::resp_body_string()
