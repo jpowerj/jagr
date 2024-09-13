@@ -1,0 +1,23 @@
+---
+title: "Example QMD File"
+---
+
+Example text
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+#| label: q1-response
+# Example R code
+print("Hello from R!")
+```
+
+More example text
+
+```{python}
+#| label: q2-response
+# Example python code
+print("Hello from Python!")
+```
