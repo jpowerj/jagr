@@ -1,12 +1,14 @@
 Package: jagr
 Title: RStudio JAG Addins
-Version: 0.1.0
+Version: 0.1.2
 Authors@R: person("Jeff", "Jacobs", email = "jj1088@georgetown.edu", role = c("aut", "cre"))
 Description: Provides a set of RStudio addins for JAG -- R functions that can be
     bound to keyboard shortcuts, and called from the RStudio UI.
 Depends:
     R (>= 3.0.0),
-    httr2
+    httr2,
+    base64enc,
+    knitr
 Imports:
     rstudioapi (>= 0.4)
 License: MIT + file LICENSE
