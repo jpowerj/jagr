@@ -4,5 +4,5 @@
 #'
 #' @name jagr
 #' @docType package
-#' @import rstudioapi httr2 base64enc knitr
+#' @import base64enc httr2 IRdisplay knitr rstudioapi stringr
 NULL

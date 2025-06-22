@@ -4,9 +4,11 @@
 \alias{fetchCorrections}
 \title{Fetch Assignment Corrections}
 \usage{
-fetchCorrections(assignment_id)
+fetchCorrections(course_id, assignment_id)
 }
 \arguments{
+\item{course_id}{Should match the subdirectory within GitHub (e.g., `"2025-sum-dsan5650"`)}
+
 \item{assignment_id}{Should match the beginning of the corrections .md filename on GitHub}
 }
 \description{
